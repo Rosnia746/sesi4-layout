@@ -1,0 +1,174 @@
+body {
+    background-image: url('../image/front-banner.png');
+    background-size: cover;
+}
+
+.halaman1 {
+    width: 75%;
+    margin: 0 auto;
+}
+
+header {
+    background: transparent;
+    padding: 20px;
+
+}
+
+header .logo {
+    float: left;
+
+}
+
+header .nav {
+    float: right;
+    border-left: 1px solid grey;
+    margin-bottom: 100px;
+}
+
+header .menu-atas {
+    border-bottom: 1px solid grey;
+}
+
+header .menu-atas .menu-satu ul li {
+    font-weight: bold;
+}
+
+header .menu-atas .menu-satu ul li span {
+    margin-left: 5px;
+}
+
+header .menu-atas .menu-satu ul li:nth-child(2) span {
+    background-color: rgb(212, 212, 212);
+    padding: 5px 10px;
+    border-radius: 1rem;
+}
+
+header .menu-bawah .menu-dua ul li {
+    font-weight: bold;
+}
+
+header .menu-satu {
+    float: left;
+}
+
+header .menu-dua {
+    float: right;
+}
+
+header ul li {
+    list-style: none;
+    display: inline;
+    padding-right: 30px;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+li.dropdown a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+.dropdown-child {
+    width: 150px;
+    padding: 20px 30px;
+    border-radius: .25rem;
+    box-shadow: 5px;
+    margin-top: .9rem;
+    left: 68% !important;
+}
+
+.dropdown-child::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
+    border-bottom: 14px solid #fff;
+
+}
+
+.dropdown-child li {
+    display: block;
+    line-height: 50px;
+}
+
+.dropdown-child {
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    background-color: #f9f9f9;
+}
+
+.dropdown-child a {
+    color: #727272 !important;
+}
+
+.dropdown-child a:hover {
+    color: #000000 !important;
+}
+
+.isi-dropdown a:hover {
+    color: #232323 !important;
+    background: #f3f3f3 !important;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+section .contain {
+    width: 50%;
+}
+
+section h1 {
+    font-size: 42px;
+    margin: 0px;
+}
+
+section p {
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+section button {
+    width: 40%;
+    margin-right: 1rem;
+    padding: 15px;
+}
+
+section .contain .shop {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+section .contain .about {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+section .contain img {
+    padding-top: 3rem;
+    width: 100px;
+
+}
+
+section .contain img {
+    padding-right: 2rem;
+    width: 100px;
+
+}
